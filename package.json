@@ -1,0 +1,18 @@
+{
+	"name": "cl-admin-export",
+	"version": "1.0.0",
+	"description": "cool-admin: cl-admin-export",
+	"main": "index.js",
+	"author": "icssoa",
+	"license": "ISC",
+	"keywords": [
+		"crud",
+		"admin",
+		"vue",
+		"export",
+		"excel",
+		"element-ui"
+	],
+	"homepage": "https://github.com/cool-team-official/cl-admin-export",
+	"sideEffects": false
+}
