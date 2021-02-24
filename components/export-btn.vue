@@ -16,7 +16,7 @@
 
 <script>
 import { currentDate, export_json_to_excel } from "../utils";
-import { isFunction } from "cl-admin";
+import { isFunction } from "cl-admin/utils";
 
 export default {
 	name: "cl-export-btn",
