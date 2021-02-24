@@ -1,6 +1,6 @@
 import { export_json_to_excel } from "./export2excel";
 
-export function currentDate() {
+function currentDate() {
 	let d = new Date();
 
 	return {
@@ -13,4 +13,4 @@ export function currentDate() {
 	};
 }
 
-export const export_json_to_excel;
+export { export_json_to_excel, currentDate };

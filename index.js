@@ -1,6 +1,6 @@
 import ExportBtn from "./components/export-btn";
 
-export const ExportBtn;
+export { ExportBtn };
 
 export default {
 	components: {
