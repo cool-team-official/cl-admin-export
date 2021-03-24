@@ -1,6 +1,6 @@
 {
 	"name": "cl-admin-export",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "cool-admin: cl-admin-export",
 	"main": "index.js",
 	"author": "icssoa",

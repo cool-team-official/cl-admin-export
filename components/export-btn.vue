@@ -32,7 +32,10 @@ export default {
 			default: "xlsx",
 		},
 		header: Array,
-		columns: Array,
+		columns: {
+			type: Array,
+			required: true,
+		},
 		data: [Function, Array],
 		maxExportLimit: Number, // 最大导出条数，不传或者小于等于0为不限制
 		size: {
@@ -57,11 +60,12 @@ export default {
 
 	methods: {
 		async toExport() {
+			if (!this.columns) {
+				return console.error("cl-export-btn.columns 不能为空！");
+			}
+
 			// 加载
 			this.loading = true;
-
-			// cl-crud loaded
-			const { app, ctx } = this.$crud;
 
 			// 表格列
 			const columns = this.columns.filter(
